@@ -24,11 +24,12 @@ document.addEventListener(“DOMContentLoaded”, () => {
       “>
         <h1 style=“color:#333;”>Thank you for giving me a chance 🤍</h1>
         <p style=“margin-top:15px;font-size:18px;color:#555;”>
-          I promise I’ll do better.<br>
-          You matter to me… a lot.
+          abse pakka vala promise nahi repear krunga ye mistake.<br>
+          maaf karde meri pyari motichur ke ladoo jesi pushtu!
         </p>
       </div>
     `;
   });
+
 
 });
