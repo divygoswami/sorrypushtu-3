@@ -20,7 +20,7 @@ document.addEventListener(“DOMContentLoaded”, () => {
         font-family:Arial;
       “>
         <h1>Thank you, Pushtu 🤍</h1>
-        <p> pushtu i am sorry abse esa nahi hoga i promise🥺 maf kardona meri motichur ki laddoo myy pushtuuu🎀💋.</p>
+        <p>pushtu i am sorry abse esa nahi hoga i promise🥺 maf kardona meri motichur ki laddoo myy pushtuuu🎀💋.</p>
       </div>
     `;
   };
