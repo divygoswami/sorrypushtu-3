@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+  <meta charset=“UTF-8”>
+  <title>For You 🤍</title>
+  <link rel=“stylesheet” href=“style.css”>
+</head>
+
+<body>
+  <div class=“card”>
+    <h1>Hey… listen 🥺</h1>
+    <p>
+      I know I messed up.<br>
+      I didn’t mean to hurt you,<br>
+      and I hate that I did.
+    </p>
+
+    <p class=“question”>
+      Can we talk and fix this? 🤍
+    </p>
+
+    <div class=“buttons”>
+      <button id=“yes”>Okay 💖</button>
+      <button id=“no”>Still upset 😐</button>
+    </div>
+  </div>
+
+  <script src=“script.js”></script>
+</body>
+</html>
