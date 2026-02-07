@@ -3,13 +3,11 @@ document.addEventListener(“DOMContentLoaded”, () => {
   const yesBtn = document.getElementById(“yes”);
   const noBtn = document.getElementById(“no”);
 
-  noBtn.addEventListener(“mouseover”, () => {
-    const x = Math.random() * 200 - 100;
-    const y = Math.random() * 120 - 60;
-    noBtn.style.transform = `translate(${x}px, ${y}px)`;
-  });
+  noBtn.onclick = () => {
+    noBtn.innerText = “Please maan jao 🥺”;
+  };
 
-  yesBtn.addEventListener(“click”, () => {
+  yesBtn.onclick = () => {
     document.body.innerHTML = `
       <div style=“
         height:100vh;
@@ -20,17 +18,11 @@ document.addEventListener(“DOMContentLoaded”, () => {
         background:#ffe6ea;
         text-align:center;
         font-family:Arial;
-        padding:20px;
       “>
-        <h1 style=“color:#333;”>Thank you for giving me a chance 🤍</h1>
-        <p style=“margin-top:15px;font-size:18px;color:#555;”>
-          abse pakka vala promise nahi repear krunga ye mistake.🥺<br>
-          maaf karde meri pyari motichur ke ladoo jesi pushtu🎀! i love youh sm💋!
-        </p>
+        <h1>Thank you, Pushtu 🤍</h1>
+        <p> pushtu i am sorry abse esa nahi hoga i promise🥺 maf kardona meri motichur ki laddoo myy pushtuuu🎀💋.</p>
       </div>
     `;
-  });
-
+  };
 
 });
-
